@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tickets Page</title>
+</head>
+<body>
+  <h1>Tickets Page</h1>
+  <p>If you came here by clicking the button, the URL should look like:</p>
+  <pre>tickets.html?source=button_click</pre>
+
+  <script>
+    // Display the query string on the page for easy testing
+    document.body.insertAdjacentHTML(
+      "beforeend",
+      "<p><strong>Query string received:</strong> " + window.location.search + "</p>"
+    );
+  </script>
+</body>
+</html>
